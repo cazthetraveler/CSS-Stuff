@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.blank {
+    height: 150vh;
+}
+
+footer {
+    background-color: gray;
+    padding: 2rem 0 1rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0 1rem;
+    border-bottom: 1px solid white;
+}
+
+.footer-link button {
+    border: none;
+    background-color: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.drop-down-btn {
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.drop-down-btn.open {
+    transform: rotate(-90deg);
+    transition: 0.3s;
+}
+
+.footer-link ul {
+    display: flex;
+    overflow: hidden;
+    max-height: 0;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style-type: none;
+    transition: max-height 0.5s ease-out;
+}
+
+.footer-link ul.open {
+    max-height: 750px;
+    transition: max-height 0.5s ease-in;
+}
+
+.footer-link ul li {
+    width: 100%;
+}
+
+.footer-link ul li:last-child {
+    margin-bottom: 1rem;
+}
+
+.footer-link ul li a {
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.footer-link ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+    .footer-links {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0 2rem;
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        width: 100%;
+        padding: 0 1rem;
+        border: none;
+    }
+
+    .footer-link button {
+        width: auto;
+        border-bottom: 1px solid white;
+        font-size: 1rem;
+        cursor: default;
+    }
+
+    .drop-down-btn {
+        display: none;
+    }
+    
+    .footer-link ul {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        max-height: 750px;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        list-style-type: none;
+        transition: max-height 0.5s ease-out;
+    }
+    
+    .footer-link ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer-link ul li a {
+        font-size: 0.9rem;
+    }
+}
