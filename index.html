@@ -8,7 +8,441 @@
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
-    <header>header goes here</header>
+    <header>
+        <section class="header-icons">
+            <div>
+                <button id="open-nav-btn" class="material-symbols-outlined">menu</button>
+            </div>
+            <div>
+                <img src="https://www.venturaline.com/images/logo300.png" />
+            </div>
+            <div>
+                <a href="/" class="material-symbols-outlined">account_circle</a>
+                <button class="material-symbols-outlined">search</button>
+            </div>
+            </section>
+            <nav>
+                <ul id="main-cat">
+                    <li><button id="awards-btn" class="open-sub-btn"><span>Awards</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Beach Balls</a></li>
+                    <li><button id="bags-btn" class="open-sub-btn"><span>Bags & Totes</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="buttons-btn" class="open-sub-btn"><span>Buttons, Pins & Tokens</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="calendar-btn" class="open-sub-btn"><span>Calendar Products</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Can Koolies</a></li>
+                    <li><a href="/">Certificate/Diploma Holders</a></li>
+                    <li><a href="/">Challenge Coins</a></li>
+                    <li><button id="clocks-btn" class="open-sub-btn"><span>Clocks</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Closeouts</a></li>
+                    <li><button id="coasters-btn" class="open-sub-btn"><span>Coasters</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="desk-btn" class="open-sub-btn"><span>Desk & Office</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="drinkware-btn" class="open-sub-btn"><span>Drinkware</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="fans-btn" class="open-sub-btn"><span>Fans</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Gift Sets</a></li>
+                    <li><button id="golf-btn" class="open-sub-btn"><span>Golf Products</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Home & Auto</a></li>
+                    <li><button id="keychain-btn" class="open-sub-btn"><span>Key Chains & Tags</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Kits</a></li>
+                    <li><button id="magnets-btn" class="open-sub-btn"><span>Magnets</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Magnifiers</a></li>
+                    <li><button id="mousepads-btn" class="open-sub-btn"><span>Mouse Pads</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Ornaments</a></li>
+                    <li><a href="/">Patches</a></li>
+                    <li><button id="plaques-btn" class="open-sub-btn"><span>Plaques</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Phone Accessories</a></li>
+                    <li><a href="/">Photo Frames & Albums</a></li>
+                    <li><button id="pop-btn" class="open-sub-btn"><span>POP - Point of Purchase</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Presentation Folders</a></li>
+                    <li><button id="ribbons-btn" class="open-sub-btn"><span>Ribbons</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Sports & Leisure</a></li>
+                    <li><button id="signs-btn" class="open-sub-btn"><span>Signs</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="stickers-btn" class="open-sub-btn"><span>Stickers</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Tech Corner</a></li>
+                    <li><button id="tools-btn" class="open-sub-btn"><span>Tools & Lights</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">New Products for 2024</a></li>
+                </ul>
+                <!-- AWARDS -->
+                <ul id="awards" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Globes</a></li>
+                    <li><a href="/">Star Awards</a></li>
+                    <li><a href="/">Certificate Holders</a></li>
+                    <li><a href="/">Keepsake Boxes</a></li>
+                    <li><a href="/">Clock Awards</a></li>
+                    <li><a href="/">Coin Banks</a></li>
+                    <li><a href="/">Paperweights</a></li>
+                    <li><a href="/">Golf Trophies</a></li>
+                    <li><a href="/">Ornaments</a></li>
+                    <li><a href="/">Crystal & Glass Trophies</a></li>
+                </ul>
+                <!-- BAGS -->
+                <ul id="bags" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><button id="backpacks-btn" class="open-sub-btn"><span>Backpacks</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="totes-btn" class="open-sub-btn"><span>Tote Bags</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Cooler Bags</a></li>
+                </ul>
+                <ul id="backpacks" class="sub-cat" data-level="2" data-cat="bags">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Cotton</a></li>
+                    <li><a href="/">Non-Woven Polypropylene</a></li>
+                    <li><a href="/">Woven Polyester</a></li>
+                    <li><a href="/">Clear Vinyl</a></li>
+                </ul>
+                <ul id="totes" class="sub-cat" data-level="2" data-cat="bags">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Cotton and Canvas</a></li>
+                    <li><a href="/">Non-Woven Polypropylene</a></li>
+                    <li><a href="/">Woven Polyester</a></li>
+                    <li><a href="/">Clear Vinyl</a></li>
+                </ul>
+                <!-- BUTTONS -->
+                <ul id="buttons" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><button id="buttonsfc-btn" class="open-sub-btn"><span>Buttons - Full Color</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="buttonssc-btn" class="open-sub-btn"><span>Buttons - Spot Color</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="blinkie-btn" class="open-sub-btn"><span>Blinkie Buttons</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Spinner Buttons</a></li>
+                    <li><a href="/">Button Mirrors</a></li>
+                    <li><button id="chipboard-btn" class="open-sub-btn"><span>Chipboard Buttons</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="polystyrene-btn" class="open-sub-btn"><span>Polystyrene Buttons</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Backer Cards</a></li>
+                    <li><a href="/">Domed Stickers</a></li>
+                    <li><button id="lapelpins-btn" class="open-sub-btn"><span>Lapel Pins</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Lapel Stickers</a></li>
+                    <li><a href="/">Tokens</a></li>
+                </ul>
+                <ul id="buttonsfc" class="sub-cat" data-level="2" data-cat="buttons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Round 1-Piece Full Color</a></li>
+                    <li><a href="/">Shape 1-Piece Full Color</a></li>
+                    <li><a href="/">Round 2-Piece Full Color</a></li>
+                    <li><a href="/">Shape 2-Piece Full Color</a></li>
+                </ul>
+                <ul id="buttonssc" class="sub-cat" data-level="2" data-cat="buttons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Round 1-Piece</a></li>
+                    <li><a href="/">Shape 1-Piece</a></li>
+                    <li><a href="/">Round 2-Piece</a></li>
+                    <li><a href="/">Shape 2-Piece</a></li>
+                </ul>
+                <ul id="blinkie" class="sub-cat" data-level="2" data-cat="buttons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Round 1-Piece Blinkie</a></li>
+                    <li><a href="/">Round 2-Piece Blinkie</a></li>
+                    <li><a href="/">Shape Blinkie Buttons</a></li>
+                </ul>
+                <ul id="chipboard" class="sub-cat" data-level="2" data-cat="buttons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Stock Chipboard Buttons</a></li>
+                    <li><a href="/">Custom Chipboard Buttons</a></li>
+                </ul>
+                <ul id="polystyrene" class="sub-cat" data-level="2" data-cat="buttons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Stock Polystyrene Buttons</a></li>
+                    <li><a href="/">Custom Polystyrene Buttons</a></li>
+                </ul>
+                <ul id="lapelpins" class="sub-cat" data-level="2" data-cat="buttons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Offset Printed Domed Stock Shapes</a></li>
+                    <li><a href="/">Imitation Hard Enamel (New Cloisonne)</a></li>
+                    <li><a href="/">Genuine Hard Enamel (Cloisonne)</a></li>
+                    <li><a href="/">Color Filled Soft Enamel</a></li>
+                    <li><a href="/">Silk-Screen & Offset Epoxy Domed</a></li>
+                    <li><a href="/">Die Struck Lapel Pins w/o Coloring</a></li>
+                </ul>
+                <!-- CALENDAR PRODUCTS -->
+                <ul id="calendar" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Bookmarks</a></li>
+                    <li><button id="cpads-btn" class="open-sub-btn"><span>Calendar Pads</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="cmagnets-btn" class="open-sub-btn"><span>Magnets</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Memo Boards</a></li>
+                    <li><a href="/">Mouse Pads</a></li>
+                    <li><a href="/">Sheets</a></li>
+                </ul>
+                <ul id="cpads" class="sub-cat" data-level="2" data-cat="calendar">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Calendar Pad Magnets</a></li>
+                    <li><a href="/">Shape Stick'ems Calendar Pads</a></li>
+                </ul>
+                <ul id="cmagnets" class="sub-cat" data-level="2" data-cat="calendar">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Full Color</a></li>
+                    <li><a href="/">Picture Frames</a></li>
+                </ul>
+                <!-- CLOCKS -->
+                <ul id="clocks" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Atomic Clocks</a></li>
+                    <li><a href="/">Award Clocks</a></li>
+                    <li><a href="/">Countdown Clocks</a></li>
+                    <li><a href="/">Desk Clocks</a></li>
+                    <li><a href="/">Executive Clocks</a></li>
+                    <li><a href="/">Mantel Clocks</a></li>
+                    <li><a href="/">Promo Clocks</a></li>
+                    <li><a href="/">Wall Clocks</a></li>
+                </ul>
+                <!-- COASTERS -->
+                <ul id="coasters" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Cork Coasters</a></li>
+                    <li><a href="/">Deluxe Coasters</a></li>
+                    <li><a href="/">Leatherette Coasters</a></li>
+                    <li><a href="/">Rubber Coasters</a></li>
+                    <li><a href="/">Coaster Boxes</a></li>
+                    <li><a href="/">Paper Coasters</a></li>
+                    <li><button id="pbcoasters-btn" class="open-sub-btn"><span>Pulp Board Coasters</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Wood Coaster Sets</a></li>
+                    <li><a href="/">Metal Coaster Sets</a></li>
+                    <li><a href="/">Marble Coaster Sets</a></li>
+                </ul>
+                <ul id="pbcoasters" class="sub-cat" data-level="2" data-cat="coasters">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Spot Colors - Short Run</a></li>
+                    <li><a href="/">Full Color Coasters</a></li>
+                    <li><a href="/">Custom Shape Pulp Board Coasters</a></li>
+                </ul>
+                <!-- DESK & OFFICE -->
+                <ul id="desk" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Bookmarks</a></li>
+                    <li><a href="/">Business Card Magnets</a></li>
+                    <li><a href="/">Business Card Holders</a></li>
+                    <li><a href="/">Coin Banks</a></li>
+                    <li><a href="/">Desk Clocks</a></li>
+                    <li><a href="/">Letter Openers</a></li>
+                    <li><a href="/">Magnetic Clips</a></li>
+                    <li><a href="/">Magnifiers</a></li>
+                    <li><a href="/">Memo Boards</a></li>
+                    <li><a href="/">Memo Pads</a></li>
+                    <li><a href="/">Mirrors</a></li>
+                    <li><a href="/">Mouse Pads</a></li>
+                    <li><a href="/">Notebooks</a></li>
+                    <li><a href="/">Scratch Pads</a></li>
+                    <li><a href="/">Rulers</a></li>
+                    <li><a href="/">Photo Frames</a></li>
+                    <li><a href="/">Paperweights</a></li>
+                </ul>
+                <!-- DRINKWARE -->
+                <ul id="drinkware" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Drink Koolies</a></li>
+                    <li><a href="/">Bottles</a></li>
+                    <li><a href="/">Mugs</a></li>
+                    <li><a href="/">Tumblers</a></li>
+                    <li><a href="/">Stadium Cups</a></li>
+                    <li><a href="/">Thermos Bottles</a></li>
+                </ul>
+                <!-- FANS -->
+                <ul id="fans" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Stock Fans</a></li>
+                    <li><a href="/">Mini Fans</a></li>
+                    <li><a href="/">Custom Fans</a></li>
+                    <li><a href="/">Lightweight Fans</a></li>
+                    <li><a href="/">Recycled Fans</a></li>
+                    <li><a href="/">Stickless Fans</a></li>
+                    <li><button id="fansfc-btn" class="open-sub-btn"><span>Full Color Fans</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Sandwiched Fans</a></li>
+                    <li><a href="/">Religious Fans</a></li>
+                    <li><button id="mask-btn" class="open-sub-btn"><span>Masks & Visors</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Rally Fans</a></li>
+                    <li><a href="/">Rally Signs</a></li>
+                    <li><a href="/">Imprinted Fan Sticks</a></li>
+                </ul>
+                <ul id="fansfc" class="sub-cat" data-level="2" data-cat="fans">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Full Color Fans 1 Sided</a></li>
+                    <li><a href="/">Full Color Fans 2 Sided</a></li>
+                    <li><a href="/">Full Color Sandwiched Fans</a></li>
+                </ul>
+                <ul id="mask" class="sub-cat" data-level="2" data-cat="fans">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Masks</a></li>
+                    <li><a href="/">Visors</a></li>
+                </ul>
+                <!-- GOLF PRODUCTS -->
+                <ul id="golf" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Divot Tools</a></li>
+                    <li><a href="/">Tee Holders</a></li>
+                    <li><a href="/">Golf Event Packs</a></li>
+                    <li><button id="matchbook-btn" class="open-sub-btn"><span>Golf Tee Matchbook Packets</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Golf Tee Poly Packets</a></li>
+                    <li><a href="/">Golf Trophies</a></li>
+                    <li><a href="/">Golf Accessories</a></li>
+                </ul>
+                <ul id="matchbook" class="sub-cat" data-level="2" data-cat="golf">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Printed Matchbook and Items</a></li>
+                    <li><a href="/">Printed Matchbook, Blank Items</a></li>
+                </ul>
+                <!-- KEY CHAINS & TAGS -->
+                <ul id="keychain" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><button id="acrylic-btn" class="open-sub-btn"><span>Acrylic Keytags</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Pull-a-Part Keytags</a></li>
+                    <li><a href="/">Brass Keytags</a></li>
+                    <li><a href="/">Carabiners</a></li>
+                    <li><a href="/">Bottle Openers</a></li>
+                    <li><a href="/">Floating Keychains</a></li>
+                </ul>
+                <ul id="acrylic" class="sub-cat" data-level="2" data-cat="keychain">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Acrylic Key Spot Color</a></li>
+                    <li><a href="/">Acrylic Keytags Full Color</a></li>
+                    <li><a href="/">Snap Together Keytags</a></li>
+                </ul>
+                <!-- MAGNETS -->
+                <ul id="magnets" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Business Card Magnets</a></li>
+                    <li><a href="/">Button Magnets</a></li>
+                    <li><a href="/">Calendar & Schedule</a></li>
+                    <li><a href="/">Calendar Pad Magnets</a></li>
+                    <li><a href="/">Floating Keychains</a></li>
+                    <li><button id="carmagnets-btn" class="open-sub-btn"><span>Car Magnets</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Custom Magnets</a></li>
+                    <li><a href="/">Jumbo Magnets</a></li>
+                    <li><a href="/">Magnetic Clips</a></li>
+                    <li><a href="/">Picture Frame Magnets</a></li>
+                    <li><a href="/">Postcard Mailers</a></li>
+                    <li><a href="/">Vinyl Stock Magnets</a></li>
+                    <li><a href="/">Vinyl Stock Shape Magnets</a></li>
+                </ul>
+                <ul id="carmagnets" class="sub-cat" data-level="2" data-cat="magnets">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Stock Car Magnets</a></li>
+                    <li><a href="/">Custom Car Magnets</a></li>
+                    <li><a href="/">Awareness Magnets</a></li>
+                    <li><a href="/">Bumper Magnets</a></li>
+                </ul>
+                <!-- MOUSE PADS -->
+                <ul id="mousepads" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Hard Top</a></li>
+                    <li><a href="/">Soft Top</a></li>
+                    <li><a href="/">Calendar</a></li>
+                </ul>
+                <!-- PLAQUES -->
+                <ul id="plaques" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><button id="piano-btn" class="open-sub-btn"><span>Piano Wood</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="plain-btn" class="open-sub-btn"><span>Piano Wood with Plain Plates</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="marble-btn" class="open-sub-btn"><span>Piano Wood with Marble Plates</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="florentine-btn" class="open-sub-btn"><span>Piano Wood with Florentine Plates</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="wave-btn" class="open-sub-btn"><span>Piano Wood with Wave Marble Plates</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="star-btn" class="open-sub-btn"><span>Piano Wood with Star Achievement Plates</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="rising-btn" class="open-sub-btn"><span>Piano Wood Rising Star Plates</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><button id="corner-btn" class="open-sub-btn"><span>Piano Wood with Corner Star Plates</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Marble Plaques & Inserts</a></li>
+                </ul>
+                <ul id="piano" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black Piano Wood Plaques</a></li>
+                    <li><a href="/">Rosewood Piano Wood Plaques</a></li>
+                    <li><a href="/">Rounded Piano Wood Plaques</a></li>
+                    <li><a href="/">Piano Wood with Acrylic</a></li>
+                </ul>
+                <ul id="plain" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black with Gold Plates</a></li>
+                    <li><a href="/">Black with Silver Plates</a></li>
+                    <li><a href="/">Rosewood with Gold Plates</a></li>
+                    <li><a href="/">Rosewood with Silver Plates</a></li>
+                </ul>
+                <ul id="marble" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black with Marble Plates</a></li>
+                    <li><a href="/">Rosewood with Marble Plates</a></li>
+                </ul>
+                <ul id="florentine" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black with Floretine Plates</a></li>
+                    <li><a href="/">Rosewood with Floretine Plates</a></li>
+                </ul>
+                <ul id="wave" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black with Wave Marble Plates</a></li>
+                    <li><a href="/">Rosewood with Wave Marble Plates</a></li>
+                </ul>
+                <ul id="star" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black with Star Plates</a></li>
+                    <li><a href="/">Rosewood with Star Plates</a></li>
+                </ul>
+                <ul id="rising" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black with Rising Star Plates</a></li>
+                    <li><a href="/">Rosewood with Rising Star Plates</a></li>
+                </ul>
+                <ul id="corner" class="sub-cat" data-level="2" data-cat="plaques">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Black with Corner Star Plates</a></li>
+                    <li><a href="/">Rosewood with Corner Star Plates</a></li>
+                </ul>
+                <!-- POP - POINT OF PURCHASE -->
+                <ul id="pop" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><button id="counter-btn" class="open-sub-btn"><span>Counter Mats</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Corrugated Signs</a></li>
+                    <li><a href="/">Door Hangers</a></li>
+                    <li><a href="/">Stickers</a></li>
+                    <li><a href="/">Table Tents</a></li>
+                </ul>
+                <ul id="counter" class="sub-cat" data-level="2" data-cat="pop">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Counter Mats Hard Surface</a></li>
+                    <li><a href="/">Counter Mats Soft Surface</a></li>
+                    <li><a href="/">Counter Mats Calendars</a></li>
+                </ul>
+                <!-- RIBBONS -->
+                <ul id="ribbons" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Flat Ribbons</a></li>
+                    <li><button id="aware-btn" class="open-sub-btn"><span>Awareness Ribbons</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                    <li><a href="/">Award Ribbons</a></li>
+                    <li><a href="/">Roll Ribbons</a></li>
+                    <li><button id="rosettes-btn" class="open-sub-btn"><span>Rosettes</span><span class="material-symbols-outlined chev-right">chevron_right</span></button></li>
+                </ul>
+                <ul id="aware" class="sub-cat" data-level="2" data-cat="ribbons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Blank Awareness Ribbons</a></li>
+                    <li><a href="/">Imprinted Awareness Ribbons</a></li>
+                </ul>
+                <ul id="rosettes" class="sub-cat" data-level="2" data-cat="ribbons">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">2-1/2" Rosettes</a></li>
+                    <li><a href="/">3" Rosettes</a></li>
+                    <li><a href="/">4" Rosettes</a></li>
+                    <li><a href="/">4-1/2" Rosettes</a></li>
+                    <li><a href="/">5" Rosettes</a></li>
+                    <li><a href="/">5-1/2" Rosettes</a></li>
+                    <li><a href="/">6" Rosettes</a></li>
+                </ul>
+                <!-- SIGNS -->
+                <ul id="signs" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Door Hangers</a></li>
+                    <li><a href="/">Table Tents</a></li>
+                    <li><a href="/">Rally Signs</a></li>
+                    <li><a href="/">Corrugated Signs</a></li>
+                </ul>
+                <!-- STICKERS -->
+                <ul id="stickers" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Domed Stickers</a></li>
+                    <li><a href="/">Lapel Stickers</a></li>
+                </ul>
+                <!-- TOOLS & LIGHTS -->
+                <ul id="tools" class="sub-cat" data-level="1">
+                    <li><button class="back-btn"><span class="material-symbols-outlined chev-left">chevron_left</span><span>Back</span></button></li>
+                    <li><a href="/">Tools & Lights</a></li>
+                    <li><a href="/">Ice Scrapers</a></li>
+                    <li><a href="/">Tape Measures</a></li>
+                </ul>
+            </nav>
+        </header>
     <main>
         <section class="blank">just a blank area for spacing purposes. Scroll down to footer. Compare to mobile and desktop view.</section>
     </main>
