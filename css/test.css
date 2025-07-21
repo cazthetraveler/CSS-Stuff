@@ -1,0 +1,167 @@
+/* MOBILE starting 300px */
+
+.page-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-control {
+    padding: 0.25rem;
+}
+
+#nav-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border: none;
+}
+
+.header-icon {
+    fill: var(--black);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.title-container {
+    padding: 0.25rem;
+}
+
+.title {
+    padding: 0.25rem;
+    color: var(--black);
+    font: 700 2rem Fira Sans, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-height: 0;
+    padding-bottom: 0.25rem;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s, opacity 0.3s;
+}
+
+.nav-links.open {
+    max-height: calc(250px + 0.5rem);
+    overflow: visible;
+    opacity: 1;
+    transition: max-height 0.3s, opacity 0.5s;
+}
+
+.nav-links a {
+    width: 100%;
+    padding: 0.25rem;
+    color: var(--black);
+    font: 500 1.75rem Fira Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--gray);
+    transition: color 0.3s;
+}
+
+.headshot-container {
+    position: relative;
+    background-image: url("../img/butterfly.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+}
+
+.name-container {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.name-container h1 {
+    color: var(--white);
+    font: 700 2.5rem Playfair Display, serif;
+    letter-spacing: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5rem black;
+}
+
+.name-container h2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.25rem;
+    color: var(--white);
+    font: 500 1.25rem Fira Sans, sans-serif;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.25rem black;
+}
+
+.page-section {
+    padding: 0.5rem;
+}
+
+.heading {
+    margin-bottom: 0.5rem;
+    font: 600 1.75rem Fira Sans, sans-serif;
+    text-transform: uppercase;
+}
+
+.subheading {
+    margin-bottom: 0.25rem;
+    font: 500 1.5rem Fira Sans, sans-serif;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    margin-bottom: 0.5rem;
+    font: 400 1.2rem Fira Sans, sans-serif;
+}
+
+.contact-container {
+    background-image: url("../img/butterfly.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    width: 100%;
+}
+
+.social-icon {
+    background-color: var(--black);
+    /* border-radius: 50%; */
+    fill: white;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0.25rem;
+}
+
+.page-footer {
+    background-color: var(--black);
+}
+
+/* TABLET 768px - 1024px */
+
+/* DESKTOP 1280px - 1920px */
